@@ -1,0 +1,6 @@
+staticfiles:
+  build: .
+  environment:
+    - VIRTUAL_HOST=files.spankythehero.com
+  volumes:
+    - /var/www:/var/www
